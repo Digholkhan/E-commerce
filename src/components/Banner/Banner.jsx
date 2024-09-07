@@ -33,7 +33,7 @@ const Banner = () => {
                       <li style={{display:'block',paddingTop:'60px'}} key={index}>{item.props.children}</li>
                     );
                   })}
-              </ul>
+                </ul>
             </div>
             </div>
           ),
@@ -147,13 +147,13 @@ const Banner = () => {
   return (
     <Slider  {...settings}>
       <div >
-        <img src={banner} alt="banner" />
+        <img src={banner} alt="banner" className='w-full'/>
       </div>
       <div >
-        <img src={banner} alt="banner" />
+        <img src={banner} alt="banner" className='w-full'/>
       </div>
       <div>
-        <img src={banner} alt="banner" />
+        <img src={banner} alt="banner" className='w-full'/>
       </div>
     </Slider>
   )
